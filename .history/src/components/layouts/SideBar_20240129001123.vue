@@ -103,6 +103,12 @@
             <h1 class="text-3xl font-bold tracking-tight text-gray-900">{{ title }}</h1>
         </div>
     </header>
+    <main>
+        <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
+            <!-- Your content -->
+            <slot></slot>
+        </div>
+    </main>
 </template>
 
 <script setup>
@@ -129,10 +135,11 @@ const userNavigation = [
     { name: 'Sign out', href: '#' },
 ]
 
-const { title } = defineProps({
-
-    title: String
-})
-
+</script>
+  
+<script>
+export default {
+    // Votre logique si nécessaire
+};
 </script>
   

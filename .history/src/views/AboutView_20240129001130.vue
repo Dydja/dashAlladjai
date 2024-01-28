@@ -10,12 +10,7 @@
   <div class="min-h-full">
     <Sidebar title="Dashboard" />
 
-    <main>
-      <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
-        <!-- Your content -->
-        lo
-      </div>
-    </main>
+    <h1>lo</h1>
   </div>
 </template>
 
